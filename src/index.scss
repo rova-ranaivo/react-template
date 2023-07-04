@@ -1,26 +1,28 @@
-/* ::selection {
-  background: black;
-  color: white;
+@use './sass/main';
+
+::selection {
+  background: var(--black);
+  color: var(--white);
 }
 
 body {
-  background-color: black;
-} */
+  background-color: var(--color-primary);
+}
 
 /* Text */
 h1 {
-  font-family: 'Jetbrains Mono';
+  font-family: var(--font-family-primary);
   font-size: 75px;
-  color: black;
+  color: var(--color-primary);
 }
 
 h2 {
-  font-family: 'Jetbrains Mono';
+  font-family: var(--font-family-primary);
   color: gray;
 }
 
 p {
-  font-family: 'Jetbrains Mono';
+  font-family: var(--font-family-primary);
   color: grey;
 }
 

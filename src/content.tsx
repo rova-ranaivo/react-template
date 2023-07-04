@@ -1,3 +1,8 @@
+/**
+ * May be not very efficient for internationalization 
+ * Check i18n or equivalent
+ */
+
 export const CONTENT = [
   {
     one: {
@@ -7,25 +12,25 @@ export const CONTENT = [
   },
   {
     two: {
-      title: 'First Content',
+      title: 'Second Content',
       subheading: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid error nobis distinctio id deserunt dolorem nostrum libero quasi quisquam beatae consequuntur neque perspiciatis harum perferendis enim, placeat, sint aut!'
     }
   },
   {
     three: {
-      title: 'First Content',
+      title: 'Third Content',
       subheading: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid error nobis distinctio id deserunt dolorem nostrum libero quasi quisquam beatae consequuntur neque perspiciatis harum perferendis enim, placeat, sint aut!'
     }
   },
   {
     four: {
-      title: 'First Content',
+      title: 'Fourth Content',
       subheading: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid error nobis distinctio id deserunt dolorem nostrum libero quasi quisquam beatae consequuntur neque perspiciatis harum perferendis enim, placeat, sint aut!'
     }
   },
   {
     five: {
-      title: 'First Content',
+      title: 'Fifth Content',
       subheading: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid error nobis distinctio id deserunt dolorem nostrum libero quasi quisquam beatae consequuntur neque perspiciatis harum perferendis enim, placeat, sint aut!'
     }
   }
