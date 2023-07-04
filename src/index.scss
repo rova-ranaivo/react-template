@@ -12,7 +12,7 @@ body {
 /* Text */
 h1 {
   font-family: var(--font-family-primary);
-  font-size: 75px;
+  font-size: var(--font-size-xl);
   color: var(--color-primary);
 }
 
@@ -83,6 +83,3 @@ body  {
     }
   }
 }
-
-
-

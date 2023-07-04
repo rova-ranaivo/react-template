@@ -15,9 +15,10 @@ npm install sass
 ```
 
 ## Done 
-Scroll from one section to the next one
-load background image
-Use Scss to align css code
+- Scroll from one section to the next one
+- load background image
+- Use Scss to align css code
+- Routing
 
 ## Todo
 - Create simple form with bootstrap - Form component has already been created
