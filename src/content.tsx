@@ -6,7 +6,7 @@
 export const CONTENT = [
   {
     one: {
-      title: 'First Content',
+      title: 'Main title',
       subheading: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid error nobis distinctio id deserunt dolorem nostrum libero quasi quisquam beatae consequuntur neque perspiciatis harum perferendis enim, placeat, sint aut!'
     }
   },

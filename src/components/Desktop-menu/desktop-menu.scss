@@ -36,6 +36,7 @@
   }
 
   @include mixins.respond-to('medium') {
+    // display: none;
     &__container {
       flex-direction: column;
       background-color: #fff;
