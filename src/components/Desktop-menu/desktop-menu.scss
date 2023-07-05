@@ -1,27 +1,55 @@
+@use '/src/sass/mixins';
+
 .desk-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: absolute;
+  width: 100%;
 
-  ul {
+  &__container {
     display: flex;
-    flex-direction: row;
-    
-    // TODO: These two lines should be in a separate file
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
 
-    li {
-      list-style: none;
-      margin: 10px;
+    ul {
+      display: flex;
+      flex-direction: row;
       
-      a {
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: bold;
-        color: var(--color-primary);
-        font-family: var(--font-family-primary);
-        font-size: var(--font-size-s);
+      // TODO: These two lines should be in a separate file
+      padding: 0;
+      margin: 0;
+  
+      li {
+        list-style: none;
+        margin: 10px;
+        
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bold;
+  
+          color: var(--grey);
+          font-family: var(--font-family-primary);
+          font-size: var(--font-size-m);
+        }
+      }
+    }
+  }
+
+  @include mixins.respond-to('medium') {
+    &__container {
+      flex-direction: column;
+      background-color: #fff;
+      height: 100vh;
+      width: 100%;
+    justify-content: space-evenly;
+
+      // Todo: This lines should be in a separate files
+      margin: 0;
+
+      .left {
+        ul {
+          flex-direction: column;
+        }
       }
     }
   }

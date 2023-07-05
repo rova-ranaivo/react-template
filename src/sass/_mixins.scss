@@ -5,9 +5,9 @@ $breakpoints: (
   'xlarge': 1200px
 );
 
-@mixin respond-to($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (max-width: map-get($breakpoints, $breakpoint)) {
+@mixin respond-to($breakpointm) {
+  @if map-has-key($breakpoints, $breakpointm) {
+    @media (max-width: map-get($breakpoints, $breakpointm)) {
       @content;
     }
   }

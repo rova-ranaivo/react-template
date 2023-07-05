@@ -1,5 +1,6 @@
 import { CONTENT } from "../../content";
 import Form from "../Form/Form";
+import './home.scss';
 
 const Home = () => {
   const content = CONTENT;
