@@ -5,8 +5,8 @@ import Home from './components/Home/Home';
 import RootLayout from './components/RootLayout/RootLayout';
 import About from './components/About/About';
 
+import './custom.scss';
 import './App.scss';
-import './custom.scss'
 
 const router = createBrowserRouter([
   {

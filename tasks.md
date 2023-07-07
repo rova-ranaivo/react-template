@@ -6,15 +6,17 @@
   - [x] Menu
   - [x] Scroll => Passer à la prochaine section directement onscroll
   - [x] Mise en place du SASS (Mixins, Fonts, colors, etc)
-  - [ ] PNG - transparent
+  - [x] Arranger les couleurs (primary, secondary etc)
   - [x] Page: Home
+  - [ ] PNG - transparent
   - [ ] Page: Contact => Lanto ?
   - [ ] Page: About => Nata (Contenu) ?
-  - [x] Arranger les couleurs (primary, secondary etc)
   - [ ] Adaptation de la couleur des logos (?)
-  
+  - [ ] Add image section
+
   - [ ] Section portfolio: Images & Brochures
   - [ ] Création du contenu
+  - [ ] Internationalization - i18n pour multilangues
 
 - [ ] Mobile
   - [ ] Menu
