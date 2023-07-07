@@ -4,6 +4,10 @@
   position: absolute;
   width: 100%;
 
+  &.active {
+    display: block;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -21,22 +25,23 @@
       li {
         list-style: none;
         margin: 10px;
-        
+
         a {
           text-transform: uppercase;
           text-decoration: none;
           font-weight: bold;
-  
-          color: var(--grey);
+          color: var(--color-primary);
           font-family: var(--font-family-primary);
-          font-size: var(--font-size-m);
+          font-size: var(--font-size-s);
         }
       }
     }
   }
 
   @include mixins.respond-to('medium') {
-    // display: none;
+    display: none;
+    opacity: .9;
+
     &__container {
       flex-direction: column;
       background-color: #fff;
@@ -55,3 +60,26 @@
     }
   }
 }
+
+.btn-hamburger {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+
+  &__bar {
+    height: 4px;
+    width: 100%;
+    background-color: var(--grey);
+    border-radius: 10px;
+  }
+
+  @include mixins.respond-to('medium') {
+    display: flex;
+  }
+}
+

@@ -1,3 +1,4 @@
+/** this component can be deleted */
 import './topmenu.scss';
 
 const TopMenu = () => {

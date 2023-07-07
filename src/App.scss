@@ -1,3 +1,42 @@
-.main-title {
-	font-size: 75px;
+@use './sass/main';
+
+::selection {
+  background: var(--black);
+  color: var(--white);
 }
+
+/* Others */
+html {
+  scroll-behavior: smooth;
+}
+
+body  {
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: var(--color-primary);
+}
+
+/* Text */
+h1 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: var(--font-family-primary);
+  color: var(--color-secondary);
+}
+
+p {
+  font-family: var(--font-family-primary);
+  color: var(--color-tertiary);
+}
+
+.hidden {
+  display: none !important;
+}
+
