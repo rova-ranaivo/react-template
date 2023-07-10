@@ -12,18 +12,18 @@
   - [ ] PNG - transparent => What is the problem exactly ? 
   - [ ] Adaptation de la couleur des logos (?)
   - [ ] Add image section => Need the exact rendering to continue
+
   - [ ] Pages
     - [x] Page: Home
     - [ ] Page: Contact
     - [ ] Page: About => Nata (Contenu) ?
 
   - [ ] Section portfolio: Images & Brochures
-  - [ ] Création du contenu
   - [ ] Internationalization - i18n pour multilangues
 
 - [ ] Mobile
-  - [ ] Menu
+  - [x] Menu
     - [x] Design
     - [x] Open/close
-    - [ ] Animation du burger-button
+    - [x] Animation du burger-button
   - [ ] Adaptation du contenu

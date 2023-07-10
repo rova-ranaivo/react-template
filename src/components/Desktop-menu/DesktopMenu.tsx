@@ -4,6 +4,7 @@ import facebookLogo from '../../assets/logos/icons8-facebook.svg';
 import youtubeLogo from '../../assets/logos/icons8-youtube.svg';
 import twitterLogo from '../../assets/logos/icons8-twitter.svg';
 
+import './burger-menu-animation.scss';
 import './desktop-menu.scss';
 import { useState } from 'react';
 
@@ -43,11 +44,16 @@ const DesktopMenu = () => {
         </div>
       </div>
       <div onClick={toggleClass}>
-        <a href="#" className={'btn-hamburger'}>
+        {/* <a href="#" className={'btn-hamburger'}>
           <span className="btn-hamburger__bar"></span>
           <span className="btn-hamburger__bar"></span>
           <span className="btn-hamburger__bar"></span>
-        </a>
+        </a> */}
+        <div id={'nav-icon1'} className={'btn-hamburger' + (isMenuOpened ? ' open' : '' )}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </>
   );
