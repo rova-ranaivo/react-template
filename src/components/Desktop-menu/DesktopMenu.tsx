@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import linkedinLogo from '../../assets/logos/icons8-linkedin.svg';
 import facebookLogo from '../../assets/logos/icons8-facebook.svg';
 import youtubeLogo from '../../assets/logos/icons8-youtube.svg';
@@ -20,13 +20,16 @@ const DesktopMenu = () => {
 
   return (
     <>
-      <div className={'desk-menu' + (isMenuOpened ? ' active' : '')}>
+      <div className={'desk-menu ' + (isMenuOpened ? 'active' : '')}>
         <div className='desk-menu__container'>
           <nav className="left">
+            {/* className={({isActive, isPending}) => {
+                return isPending ? 'pending' : isActive ? 'active-menu' : ''
+              }} */}
             <ul>
-              <li><Link onClick={closeMenu} to="/">home</Link></li>
-              <li><Link onClick={closeMenu} to="/contact">contact</Link></li>
-              <li><Link onClick={closeMenu} to="/about">about</Link></li>
+              <li><NavLink onClick={closeMenu} to="/">home</NavLink></li>
+              <li><NavLink onClick={closeMenu} to="/contact">contact</NavLink></li>
+              <li><NavLink onClick={closeMenu} to="/about">about</NavLink></li>
             </ul>
           </nav>
           <nav className="right">

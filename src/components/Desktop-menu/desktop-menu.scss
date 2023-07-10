@@ -33,6 +33,10 @@
           color: var(--color-primary);
           font-family: var(--font-family-primary);
           font-size: var(--font-size-s);
+
+          &.active {
+            text-decoration: underline 3px;
+          }
         }
       }
     }

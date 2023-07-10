@@ -1,6 +1,7 @@
 import { CONTENT } from "../../content";
 import Form from "../Form/Form";
 import './home.scss';
+import angularimg from './../../assets/images/angular.png';
 
 const Home = () => {
   const content = CONTENT;
@@ -28,6 +29,8 @@ const Home = () => {
         <div className="content col-sm-8 col-8">
           <h2>{three?.title}</h2>
           <p className="loading-text">{three?.subheading}</p>
+          <img src={angularimg} alt="Mobile only" style={{ border: '1px solid black' }} className="col-md-none" />
+          <img src={angularimg+'m'} alt="Desktop only" style={{ border: '1px solid black' }} className="d-none col-md-3" />
         </div>
       </section>
       <section className="four">

@@ -2,7 +2,7 @@
 
 ::selection {
   background: var(--black);
-  color: var(--white);
+  color: var(--color-primary);
 }
 
 /* Others */
@@ -18,7 +18,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Text */
 h1 {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-xl);

@@ -4,7 +4,8 @@ const About = () => {
 
   return (
     <div className='about'>
-      A short description about the company
+      Quoi ? Pourquoi ? Comment ? 
+      Services proposés... 
     </div>
   )
 }
