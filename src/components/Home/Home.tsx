@@ -16,11 +16,11 @@ const Home = () => {
         </div>
       </section>
       <section className="two row">
-        <div className="content col-md-6 d-md-block d-lg-block d-xl-block col-sm-8 col-8">
+        <div className="content col-md-5 d-md-block d-lg-block d-xl-block col-sm-8 col-8">
           <h2>{two?.title}</h2>
           <p>{two?.subheading}</p>
         </div>
-        <div className="content col-md-6 d-none d-md-block d-lg-block d-xl-block col-8">
+        <div className="content col-md-5 d-none d-md-block d-lg-block d-xl-block col-8">
           <h2>{two?.title}</h2>
           <p>{two?.subheading}</p>
         </div>
