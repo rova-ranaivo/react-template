@@ -26,4 +26,5 @@
     - [x] Design
     - [x] Open/close
     - [x] Animation du burger-button
+    - [x] Clean-up
   - [ ] Adaptation du contenu

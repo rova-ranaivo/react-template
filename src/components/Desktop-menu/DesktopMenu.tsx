@@ -44,12 +44,7 @@ const DesktopMenu = () => {
         </div>
       </div>
       <div onClick={toggleClass}>
-        {/* <a href="#" className={'btn-hamburger'}>
-          <span className="btn-hamburger__bar"></span>
-          <span className="btn-hamburger__bar"></span>
-          <span className="btn-hamburger__bar"></span>
-        </a> */}
-        <div id={'nav-icon1'} className={'btn-hamburger' + (isMenuOpened ? ' open' : '' )}>
+        <div id={'nav-icon'} className={'btn-hamburger' + (isMenuOpened ? ' open' : '') }>
           <span></span>
           <span></span>
           <span></span>
