@@ -16,10 +16,22 @@
     scroll-snap-align: start; 
 
     &.one {
-      background: url('./../../assets//images/man-smile.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      // Quelque chose à exploiter ici pour avoir un background fix pendant le scroll!
+      // background: url('./../../assets//images/man-smile.png');
+      // background-size: cover;
+      // background-position: center;
+      // background-repeat: no-repeat;
+      z-index: -9;
+      // position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 35%;
+      background-image: url(./../../assets//images/man-smile.png);
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -moz-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+      -moz-animation-fill-mode:backwards;
 
       .main-title {
         font-size: 75px;

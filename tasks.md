@@ -1,7 +1,7 @@
 # Tasks
 
 - [ ] Desktop
-  - [ ] Basics
+  - [x] Basics
     - [x] Installer typescript
     - [x] Installer scss
     - [x] Mise en place du SASS (Mixins, Fonts, colors, etc)
@@ -16,15 +16,24 @@
   - [ ] Pages
     - [x] Page: Home
     - [ ] Page: Contact
+      - [ ] Design
+      - [x] Send email 
+        <!--  => verify other alternative(Email JS is used for now and is working well)
+              => Step : install npm i @emailjs/browser  -->
+        <!-- Todo: EmailJS can be used to write an article in DevJS -->
     - [ ] Page: About => Nata (Contenu) ?
 
   - [ ] Section portfolio: Images & Brochures
   - [ ] Internationalization - i18n pour multilangues
-
 - [ ] Mobile
   - [x] Menu
     - [x] Design
     - [x] Open/close
     - [x] Animation du burger-button
     - [x] Clean-up
-  - [ ] Adaptation du contenu
+- [ ] Post-deployement
+  - [ ] Test performance
+  - [ ] SEO
+
+- [ ] Non technical 
+  - [ ] Photo pour portfolio

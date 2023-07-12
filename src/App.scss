@@ -1,8 +1,8 @@
 @use './sass/main';
 
 ::selection {
-  background: var(--black);
-  color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--white);
 }
 
 /* Others */
@@ -10,12 +10,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body  {
-  margin: 0;
-}
-
 body {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 h1 {
